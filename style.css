@@ -386,6 +386,50 @@ background: rgb(255, 0, 0);
     width: 424px;
     height: 450px;
 }
+/* mail styles */
+.mail-container{
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    background-color: rgba(255, 0, 0, 0.05);
+}
+.mail-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+.mail-content{
+    width: 90%;
+    /* height: 450px; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.mail-content img, 
+.mail-content h2, .mail-content p
+{
+    margin-bottom: 20px;
+}
+.mail-container input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    box-shadow: rgba(149, 157, 165, 0.2);
+}
+#btn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background-color: rgb(229, 84, 115);
+}
+
 
 /* footer styles */
 .footer-container{
