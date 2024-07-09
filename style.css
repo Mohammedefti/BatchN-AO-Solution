@@ -160,6 +160,9 @@ top: 0%;
 bottom: 0%;
 }
 
+
+
+
 /* Join section */
 .join-section-container{
     /* Vector */
@@ -214,6 +217,69 @@ background: rgb(255, 0, 0);
 
 }
 
+/* new best offer styles */
+.new-best-container{
+    width: 90%;
+    height: 320px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    margin-top: 140px;
+}
+.content{
+    display: flex;
+
+}
+.first-section{
+    width: 380px;
+    height: 255px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-right: 40px;
+}
+.first-section h4{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: red;
+    
+}
+.first-section h2{
+    margin-bottom: 20px;
+}
+
+.second-section img{
+    width: 280px;
+    height: 300px;
+    border: 2px dotted gray;
+    /* box-sizing: border-box; */
+    outline: 5px solid red;
+    border: 15px solid white;
+    border-radius: 50%;
+}
+
+.third-section{
+    width: 380px;
+    height: 255px;
+    /* border: 2px solid red; */
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.third-section h2{
+    color: red;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.third-section img{
+    width:100px ;
+    height: 100px;
+    margin-top: 40px;
+}
 /* holiday styles */
 .holiday-section-container{
      width: 1320px;
